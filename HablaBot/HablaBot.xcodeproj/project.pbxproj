@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		840C44E62D03B676006FDC2D /* HablaBotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840C44E52D03B676006FDC2D /* HablaBotApp.swift */; };
+		840C44E82D03B676006FDC2D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840C44E72D03B676006FDC2D /* ContentView.swift */; };
+		840C44EA2D03B679006FDC2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 840C44E92D03B679006FDC2D /* Assets.xcassets */; };
+		840C44ED2D03B679006FDC2D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 840C44EC2D03B679006FDC2D /* Preview Assets.xcassets */; };
+		840C44F82D03B679006FDC2D /* HablaBotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840C44F72D03B679006FDC2D /* HablaBotTests.swift */; };
+		840C45032D03B679006FDC2D /* HablaBotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840C45022D03B679006FDC2D /* HablaBotUITests.swift */; };
+		840C45142D04FA8B006FDC2D /* BotResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840C45132D04FA8B006FDC2D /* BotResponse.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		840C44F42D03B679006FDC2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 840C44DA2D03B676006FDC2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 840C44E12D03B676006FDC2D;
+			remoteInfo = HablaBot;
+		};
+		840C44FF2D03B679006FDC2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 840C44DA2D03B676006FDC2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 840C44E12D03B676006FDC2D;
+			remoteInfo = HablaBot;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		840C44E22D03B676006FDC2D /* HablaBot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HablaBot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		840C44E52D03B676006FDC2D /* HablaBotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HablaBotApp.swift; sourceTree = "<group>"; };
+		840C44E72D03B676006FDC2D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		840C44E92D03B679006FDC2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		840C44EC2D03B679006FDC2D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		840C44EE2D03B679006FDC2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		840C44F32D03B679006FDC2D /* HablaBotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HablaBotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		840C44F72D03B679006FDC2D /* HablaBotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HablaBotTests.swift; sourceTree = "<group>"; };
+		840C44F92D03B679006FDC2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		840C44FE2D03B679006FDC2D /* HablaBotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HablaBotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		840C45022D03B679006FDC2D /* HablaBotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HablaBotUITests.swift; sourceTree = "<group>"; };
+		840C45042D03B679006FDC2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		840C45132D04FA8B006FDC2D /* BotResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotResponse.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		840C44DF2D03B676006FDC2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840C44F02D03B679006FDC2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840C44FB2D03B679006FDC2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		840C44D92D03B676006FDC2D = {
+			isa = PBXGroup;
+			children = (
+				840C44E42D03B676006FDC2D /* HablaBot */,
+				840C44F62D03B679006FDC2D /* HablaBotTests */,
+				840C45012D03B679006FDC2D /* HablaBotUITests */,
+				840C44E32D03B676006FDC2D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		840C44E32D03B676006FDC2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				840C44E22D03B676006FDC2D /* HablaBot.app */,
+				840C44F32D03B679006FDC2D /* HablaBotTests.xctest */,
+				840C44FE2D03B679006FDC2D /* HablaBotUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		840C44E42D03B676006FDC2D /* HablaBot */ = {
+			isa = PBXGroup;
+			children = (
+				840C44E52D03B676006FDC2D /* HablaBotApp.swift */,
+				840C44E72D03B676006FDC2D /* ContentView.swift */,
+				840C45132D04FA8B006FDC2D /* BotResponse.swift */,
+				840C44E92D03B679006FDC2D /* Assets.xcassets */,
+				840C44EE2D03B679006FDC2D /* Info.plist */,
+				840C44EB2D03B679006FDC2D /* Preview Content */,
+			);
+			path = HablaBot;
+			sourceTree = "<group>";
+		};
+		840C44EB2D03B679006FDC2D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				840C44EC2D03B679006FDC2D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		840C44F62D03B679006FDC2D /* HablaBotTests */ = {
+			isa = PBXGroup;
+			children = (
+				840C44F72D03B679006FDC2D /* HablaBotTests.swift */,
+				840C44F92D03B679006FDC2D /* Info.plist */,
+			);
+			path = HablaBotTests;
+			sourceTree = "<group>";
+		};
+		840C45012D03B679006FDC2D /* HablaBotUITests */ = {
+			isa = PBXGroup;
+			children = (
+				840C45022D03B679006FDC2D /* HablaBotUITests.swift */,
+				840C45042D03B679006FDC2D /* Info.plist */,
+			);
+			path = HablaBotUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		840C44E12D03B676006FDC2D /* HablaBot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 840C45072D03B679006FDC2D /* Build configuration list for PBXNativeTarget "HablaBot" */;
+			buildPhases = (
+				840C44DE2D03B676006FDC2D /* Sources */,
+				840C44DF2D03B676006FDC2D /* Frameworks */,
+				840C44E02D03B676006FDC2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HablaBot;
+			productName = HablaBot;
+			productReference = 840C44E22D03B676006FDC2D /* HablaBot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		840C44F22D03B679006FDC2D /* HablaBotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 840C450A2D03B679006FDC2D /* Build configuration list for PBXNativeTarget "HablaBotTests" */;
+			buildPhases = (
+				840C44EF2D03B679006FDC2D /* Sources */,
+				840C44F02D03B679006FDC2D /* Frameworks */,
+				840C44F12D03B679006FDC2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				840C44F52D03B679006FDC2D /* PBXTargetDependency */,
+			);
+			name = HablaBotTests;
+			productName = HablaBotTests;
+			productReference = 840C44F32D03B679006FDC2D /* HablaBotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		840C44FD2D03B679006FDC2D /* HablaBotUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 840C450D2D03B679006FDC2D /* Build configuration list for PBXNativeTarget "HablaBotUITests" */;
+			buildPhases = (
+				840C44FA2D03B679006FDC2D /* Sources */,
+				840C44FB2D03B679006FDC2D /* Frameworks */,
+				840C44FC2D03B679006FDC2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				840C45002D03B679006FDC2D /* PBXTargetDependency */,
+			);
+			name = HablaBotUITests;
+			productName = HablaBotUITests;
+			productReference = 840C44FE2D03B679006FDC2D /* HablaBotUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		840C44DA2D03B676006FDC2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					840C44E12D03B676006FDC2D = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					840C44F22D03B679006FDC2D = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 840C44E12D03B676006FDC2D;
+					};
+					840C44FD2D03B679006FDC2D = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 840C44E12D03B676006FDC2D;
+					};
+				};
+			};
+			buildConfigurationList = 840C44DD2D03B676006FDC2D /* Build configuration list for PBXProject "HablaBot" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 840C44D92D03B676006FDC2D;
+			productRefGroup = 840C44E32D03B676006FDC2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				840C44E12D03B676006FDC2D /* HablaBot */,
+				840C44F22D03B679006FDC2D /* HablaBotTests */,
+				840C44FD2D03B679006FDC2D /* HablaBotUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		840C44E02D03B676006FDC2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840C44ED2D03B679006FDC2D /* Preview Assets.xcassets in Resources */,
+				840C44EA2D03B679006FDC2D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840C44F12D03B679006FDC2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840C44FC2D03B679006FDC2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		840C44DE2D03B676006FDC2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840C44E82D03B676006FDC2D /* ContentView.swift in Sources */,
+				840C44E62D03B676006FDC2D /* HablaBotApp.swift in Sources */,
+				840C45142D04FA8B006FDC2D /* BotResponse.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840C44EF2D03B679006FDC2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840C44F82D03B679006FDC2D /* HablaBotTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840C44FA2D03B679006FDC2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840C45032D03B679006FDC2D /* HablaBotUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		840C44F52D03B679006FDC2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 840C44E12D03B676006FDC2D /* HablaBot */;
+			targetProxy = 840C44F42D03B679006FDC2D /* PBXContainerItemProxy */;
+		};
+		840C45002D03B679006FDC2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 840C44E12D03B676006FDC2D /* HablaBot */;
+			targetProxy = 840C44FF2D03B679006FDC2D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		840C45052D03B679006FDC2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		840C45062D03B679006FDC2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		840C45082D03B679006FDC2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HablaBot/Preview Content\"";
+				DEVELOPMENT_TEAM = A33YTXXVWU;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HablaBot/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.devsk8.HablaBot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		840C45092D03B679006FDC2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HablaBot/Preview Content\"";
+				DEVELOPMENT_TEAM = A33YTXXVWU;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HablaBot/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.devsk8.HablaBot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		840C450B2D03B679006FDC2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A33YTXXVWU;
+				INFOPLIST_FILE = HablaBotTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.devsk8.HablaBotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HablaBot.app/HablaBot";
+			};
+			name = Debug;
+		};
+		840C450C2D03B679006FDC2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A33YTXXVWU;
+				INFOPLIST_FILE = HablaBotTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.devsk8.HablaBotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HablaBot.app/HablaBot";
+			};
+			name = Release;
+		};
+		840C450E2D03B679006FDC2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A33YTXXVWU;
+				INFOPLIST_FILE = HablaBotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.devsk8.HablaBotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HablaBot;
+			};
+			name = Debug;
+		};
+		840C450F2D03B679006FDC2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A33YTXXVWU;
+				INFOPLIST_FILE = HablaBotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.devsk8.HablaBotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HablaBot;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		840C44DD2D03B676006FDC2D /* Build configuration list for PBXProject "HablaBot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840C45052D03B679006FDC2D /* Debug */,
+				840C45062D03B679006FDC2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		840C45072D03B679006FDC2D /* Build configuration list for PBXNativeTarget "HablaBot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840C45082D03B679006FDC2D /* Debug */,
+				840C45092D03B679006FDC2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		840C450A2D03B679006FDC2D /* Build configuration list for PBXNativeTarget "HablaBotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840C450B2D03B679006FDC2D /* Debug */,
+				840C450C2D03B679006FDC2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		840C450D2D03B679006FDC2D /* Build configuration list for PBXNativeTarget "HablaBotUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840C450E2D03B679006FDC2D /* Debug */,
+				840C450F2D03B679006FDC2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 840C44DA2D03B676006FDC2D /* Project object */;
+}
